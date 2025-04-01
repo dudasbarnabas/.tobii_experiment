@@ -1,0 +1,177 @@
+63.8761 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7f9452dd3b00>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7f9410d9d710>, multiSample=False, name='window1', numSamples=2, pos=[696.0, 410.0], screen=0, size=array([1600, 1200]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+63.8763 	EXP 	window1: mouseVisible = True
+63.8764 	EXP 	window1: recordFrameIntervals = False
+64.0419 	EXP 	window1: recordFrameIntervals = True
+64.2134 	WARNING 	t of last frame was 21.47ms (=1/46)
+64.5259 	EXP 	window1: recordFrameIntervals = False
+65.2659 	EXP 	Created blockIntroText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='blockIntroText', opacity=1, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text="You're about to start a new block", units='height', win=Window(...), wrapWidth=1)
+65.2667 	EXP 	Created stimInfo = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='stimInfo', opacity=1, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+65.2671 	EXP 	Created sequence: random, trialTypes=1, nReps=4, seed=None
+65.2673 	EXP 	New trial (rep=0, index=0): None
+65.2919 	EXP 	blockIntroText: autoDraw = True
+65.7748 	EXP 	Created sequence: random, trialTypes=1, nReps=2, seed=None
+65.7750 	EXP 	New trial (rep=0, index=0): None
+65.7753 	EXP 	Created sequence: random, trialTypes=1, nReps=3, seed=None
+65.7755 	EXP 	New trial (rep=0, index=0): None
+65.7892 	EXP 	blockIntroText: autoDraw = False
+65.7892 	EXP 	stimInfo: text = 'stim 0'
+65.8731 	EXP 	stimInfo: autoDraw = True
+65.9606 	EXP 	New trial (rep=1, index=0): None
+65.9730 	EXP 	stimInfo: autoDraw = False
+65.9730 	EXP 	stimInfo: autoDraw = False
+65.9730 	EXP 	stimInfo: text = 'stim 1'
+66.0589 	EXP 	stimInfo: autoDraw = True
+66.1598 	EXP 	New trial (rep=2, index=0): None
+66.1730 	EXP 	stimInfo: autoDraw = False
+66.1730 	EXP 	stimInfo: autoDraw = False
+66.1730 	EXP 	stimInfo: text = 'stim 2'
+66.2589 	EXP 	stimInfo: autoDraw = True
+66.3599 	EXP 	New trial (rep=1, index=0): None
+66.3603 	EXP 	Created sequence: random, trialTypes=1, nReps=3, seed=None
+66.3606 	EXP 	New trial (rep=0, index=0): None
+66.3730 	EXP 	stimInfo: autoDraw = False
+66.3730 	EXP 	stimInfo: autoDraw = False
+66.3730 	EXP 	stimInfo: text = 'stim 0'
+66.4568 	EXP 	stimInfo: autoDraw = True
+66.5408 	EXP 	New trial (rep=1, index=0): None
+66.5591 	EXP 	stimInfo: autoDraw = False
+66.5591 	EXP 	stimInfo: autoDraw = False
+66.5591 	EXP 	stimInfo: text = 'stim 1'
+66.6396 	EXP 	stimInfo: autoDraw = True
+66.7277 	EXP 	New trial (rep=2, index=0): None
+66.7424 	EXP 	stimInfo: autoDraw = False
+66.7424 	EXP 	stimInfo: autoDraw = False
+66.7424 	EXP 	stimInfo: text = 'stim 2'
+66.8238 	EXP 	stimInfo: autoDraw = True
+66.9428 	EXP 	New trial (rep=1, index=0): None
+66.9463 	EXP 	stimInfo: autoDraw = False
+66.9463 	EXP 	stimInfo: autoDraw = False
+66.9463 	EXP 	blockIntroText: autoDraw = True
+67.4407 	EXP 	Created sequence: random, trialTypes=1, nReps=2, seed=None
+67.4409 	EXP 	New trial (rep=0, index=0): None
+67.4412 	EXP 	Created sequence: random, trialTypes=1, nReps=3, seed=None
+67.4414 	EXP 	New trial (rep=0, index=0): None
+67.4571 	EXP 	blockIntroText: autoDraw = False
+67.4571 	EXP 	blockIntroText: autoDraw = False
+67.4571 	EXP 	stimInfo: text = 'stim 0'
+67.5398 	EXP 	stimInfo: autoDraw = True
+67.6266 	EXP 	New trial (rep=1, index=0): None
+67.6394 	EXP 	stimInfo: autoDraw = False
+67.6394 	EXP 	stimInfo: autoDraw = False
+67.6394 	EXP 	stimInfo: text = 'stim 1'
+67.7240 	EXP 	stimInfo: autoDraw = True
+67.8097 	EXP 	New trial (rep=2, index=0): None
+67.8234 	EXP 	stimInfo: autoDraw = False
+67.8234 	EXP 	stimInfo: autoDraw = False
+67.8234 	EXP 	stimInfo: text = 'stim 2'
+67.9062 	EXP 	stimInfo: autoDraw = True
+67.9929 	EXP 	New trial (rep=1, index=0): None
+67.9933 	EXP 	Created sequence: random, trialTypes=1, nReps=3, seed=None
+67.9936 	EXP 	New trial (rep=0, index=0): None
+68.0062 	EXP 	stimInfo: autoDraw = False
+68.0062 	EXP 	stimInfo: autoDraw = False
+68.0062 	EXP 	stimInfo: text = 'stim 0'
+68.0918 	EXP 	stimInfo: autoDraw = True
+68.1929 	EXP 	New trial (rep=1, index=0): None
+68.2166 	EXP 	stimInfo: autoDraw = False
+68.2166 	EXP 	stimInfo: autoDraw = False
+68.2166 	EXP 	stimInfo: text = 'stim 1'
+68.2920 	EXP 	stimInfo: autoDraw = True
+68.3929 	EXP 	New trial (rep=2, index=0): None
+68.4062 	EXP 	stimInfo: autoDraw = False
+68.4062 	EXP 	stimInfo: autoDraw = False
+68.4062 	EXP 	stimInfo: text = 'stim 2'
+68.4905 	EXP 	stimInfo: autoDraw = True
+68.6409 	EXP 	New trial (rep=2, index=0): None
+68.6455 	EXP 	stimInfo: autoDraw = False
+68.6455 	EXP 	stimInfo: autoDraw = False
+68.6455 	EXP 	blockIntroText: autoDraw = True
+69.1397 	EXP 	Created sequence: random, trialTypes=1, nReps=2, seed=None
+69.1399 	EXP 	New trial (rep=0, index=0): None
+69.1401 	EXP 	Created sequence: random, trialTypes=1, nReps=3, seed=None
+69.1403 	EXP 	New trial (rep=0, index=0): None
+69.1588 	EXP 	blockIntroText: autoDraw = False
+69.1588 	EXP 	blockIntroText: autoDraw = False
+69.1588 	EXP 	stimInfo: text = 'stim 0'
+69.2424 	EXP 	stimInfo: autoDraw = True
+69.3265 	EXP 	New trial (rep=1, index=0): None
+69.3398 	EXP 	stimInfo: autoDraw = False
+69.3398 	EXP 	stimInfo: autoDraw = False
+69.3398 	EXP 	stimInfo: text = 'stim 1'
+69.4235 	EXP 	stimInfo: autoDraw = True
+69.5263 	EXP 	New trial (rep=2, index=0): None
+69.5398 	EXP 	stimInfo: autoDraw = False
+69.5398 	EXP 	stimInfo: autoDraw = False
+69.5398 	EXP 	stimInfo: text = 'stim 2'
+69.6232 	EXP 	stimInfo: autoDraw = True
+69.7172 	EXP 	New trial (rep=1, index=0): None
+69.7175 	EXP 	Created sequence: random, trialTypes=1, nReps=3, seed=None
+69.7177 	EXP 	New trial (rep=0, index=0): None
+69.7277 	EXP 	stimInfo: autoDraw = False
+69.7277 	EXP 	stimInfo: autoDraw = False
+69.7277 	EXP 	stimInfo: text = 'stim 0'
+69.8090 	EXP 	stimInfo: autoDraw = True
+69.8930 	EXP 	New trial (rep=1, index=0): None
+69.9057 	EXP 	stimInfo: autoDraw = False
+69.9057 	EXP 	stimInfo: autoDraw = False
+69.9057 	EXP 	stimInfo: text = 'stim 1'
+69.9903 	EXP 	stimInfo: autoDraw = True
+70.0915 	EXP 	New trial (rep=2, index=0): None
+70.1058 	EXP 	stimInfo: autoDraw = False
+70.1058 	EXP 	stimInfo: autoDraw = False
+70.1058 	EXP 	stimInfo: text = 'stim 2'
+70.1905 	EXP 	stimInfo: autoDraw = True
+70.3506 	EXP 	New trial (rep=3, index=0): None
+70.3547 	EXP 	stimInfo: autoDraw = False
+70.3547 	EXP 	stimInfo: autoDraw = False
+70.3547 	EXP 	blockIntroText: autoDraw = True
+70.8409 	EXP 	Created sequence: random, trialTypes=1, nReps=2, seed=None
+70.8412 	EXP 	New trial (rep=0, index=0): None
+70.8415 	EXP 	Created sequence: random, trialTypes=1, nReps=3, seed=None
+70.8418 	EXP 	New trial (rep=0, index=0): None
+70.8568 	EXP 	blockIntroText: autoDraw = False
+70.8568 	EXP 	blockIntroText: autoDraw = False
+70.8568 	EXP 	stimInfo: text = 'stim 0'
+70.9393 	EXP 	stimInfo: autoDraw = True
+71.0260 	EXP 	New trial (rep=1, index=0): None
+71.0393 	EXP 	stimInfo: autoDraw = False
+71.0393 	EXP 	stimInfo: autoDraw = False
+71.0393 	EXP 	stimInfo: text = 'stim 1'
+71.1231 	EXP 	stimInfo: autoDraw = True
+71.2139 	EXP 	New trial (rep=2, index=0): None
+71.2273 	EXP 	stimInfo: autoDraw = False
+71.2273 	EXP 	stimInfo: autoDraw = False
+71.2273 	EXP 	stimInfo: text = 'stim 2'
+71.3061 	EXP 	stimInfo: autoDraw = True
+71.3929 	EXP 	New trial (rep=1, index=0): None
+71.3933 	EXP 	Created sequence: random, trialTypes=1, nReps=3, seed=None
+71.3936 	EXP 	New trial (rep=0, index=0): None
+71.4060 	EXP 	stimInfo: autoDraw = False
+71.4060 	EXP 	stimInfo: autoDraw = False
+71.4060 	EXP 	stimInfo: text = 'stim 0'
+71.4900 	EXP 	stimInfo: autoDraw = True
+71.5739 	EXP 	New trial (rep=1, index=0): None
+71.5927 	EXP 	stimInfo: autoDraw = False
+71.5927 	EXP 	stimInfo: autoDraw = False
+71.5927 	EXP 	stimInfo: text = 'stim 1'
+71.6753 	EXP 	stimInfo: autoDraw = True
+71.7604 	EXP 	New trial (rep=2, index=0): None
+71.7734 	EXP 	stimInfo: autoDraw = False
+71.7734 	EXP 	stimInfo: autoDraw = False
+71.7734 	EXP 	stimInfo: text = 'stim 2'
+71.8568 	EXP 	stimInfo: autoDraw = True
+72.0107 	EXP 	stimInfo: autoDraw = False
+72.0107 	EXP 	stimInfo: autoDraw = False
+72.0201 	EXP 	window1: mouseVisible = True
+180.3206 	EXP 	Imported /Users/lpzjwp/code/psychopy/git/psychopy/demos/builder/Experiments/stroop/trialTypes.csv as conditions, 6 conditions, 4 params
+180.3582 	EXP 	Imported /Users/lpzjwp/code/psychopy/git/psychopy/demos/builder/Experiments/stroop/trialTypes.csv as conditions, 6 conditions, 4 params
+180.8159 	EXP 	Imported /Users/lpzjwp/code/psychopy/git/psychopy/demos/builder/Design Templates/randomisedBlocks/chooseBlock.xlsx as conditions, 2 conditions, 2 params
+180.8418 	EXP 	Imported /Users/lpzjwp/code/psychopy/git/psychopy/demos/builder/Design Templates/randomisedBlocks/facesBlock.xlsx as conditions, 3 conditions, 1 params
+180.8510 	EXP 	Imported /Users/lpzjwp/code/psychopy/git/psychopy/demos/builder/Design Templates/randomisedBlocks/housesBlock.xlsx as conditions, 3 conditions, 1 params
+180.9479 	EXP 	Imported /Users/lpzjwp/code/psychopy/git/psychopy/demos/builder/Design Templates/randomisedBlocks/chooseBlock.xlsx as conditions, 2 conditions, 2 params
+180.9579 	EXP 	Imported /Users/lpzjwp/code/psychopy/git/psychopy/demos/builder/Design Templates/randomisedBlocks/facesBlock.xlsx as conditions, 3 conditions, 1 params
+180.9679 	EXP 	Imported /Users/lpzjwp/code/psychopy/git/psychopy/demos/builder/Design Templates/randomisedBlocks/housesBlock.xlsx as conditions, 3 conditions, 1 params
+181.2415 	EXP 	Imported /Users/lpzjwp/code/psychopy/git/psychopy/demos/builder/Experiments/stroop/trialTypes.csv as conditions, 6 conditions, 4 params
+181.2523 	EXP 	Imported /Users/lpzjwp/code/psychopy/git/psychopy/demos/builder/Experiments/stroop/trialTypes.csv as conditions, 6 conditions, 4 params
+181.4904 	EXP 	Imported /Users/lpzjwp/code/psychopy/git/psychopy/demos/builder/Experiments/stroop/trialTypes.csv as conditions, 6 conditions, 4 params
+181.5089 	EXP 	Imported /Users/lpzjwp/code/psychopy/git/psychopy/demos/builder/Experiments/stroop/trialTypes.csv as conditions, 6 conditions, 4 params

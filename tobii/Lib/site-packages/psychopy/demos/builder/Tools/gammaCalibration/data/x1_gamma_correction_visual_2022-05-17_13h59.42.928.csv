@@ -1,0 +1,2 @@
+﻿trials.startVal,trials.startValSd,trials.label,trials.thisIndex,trials.thisRepN,trials.thisN,trials.direction,trials.stepSize,trials.stepType,trials.intensity,participant,session,date,expName,psychopyVersion,frameRate,
+0.8,0.2,start low,0,1,0,start,4,lin,0.8,,,,,,,

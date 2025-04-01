@@ -1,0 +1,168 @@
+33.3484 	DATA 	Keypress: lcommand
+33.8965 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7f833a66c828>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7f833b62bba8>, multiSample=False, name='window1', numSamples=2, pos=[696.0, 410.0], screen=0, size=array([1600, 1200]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+33.8967 	EXP 	window1: mouseVisible = True
+33.8967 	EXP 	window1: recordFrameIntervals = False
+34.0620 	EXP 	window1: recordFrameIntervals = True
+34.2144 	WARNING 	t of last frame was 22.15ms (=1/45)
+34.7249 	WARNING 	t of last frame was 32.26ms (=1/31)
+34.7468 	WARNING 	t of last frame was 21.95ms (=1/45)
+34.9128 	EXP 	window1: recordFrameIntervals = False
+35.6135 	EXP 	Created blockIntroText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='blockIntroText', opacity=1, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text="You're about to start a new block", units='height', win=Window(...), wrapWidth=1)
+35.6143 	EXP 	Created stimInfo = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='stimInfo', opacity=1, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+35.6147 	EXP 	Created sequence: random, trialTypes=1, nReps=4, seed=None
+35.6149 	EXP 	New trial (rep=0, index=0): None
+35.6409 	EXP 	blockIntroText: autoDraw = True
+36.1161 	EXP 	Created sequence: random, trialTypes=1, nReps=2, seed=None
+36.1163 	EXP 	New trial (rep=0, index=0): None
+36.1166 	EXP 	Created sequence: random, trialTypes=1, nReps=3, seed=None
+36.1167 	EXP 	New trial (rep=0, index=0): None
+36.1268 	EXP 	blockIntroText: autoDraw = False
+36.1268 	EXP 	stimInfo: text = 'stim 0'
+36.2098 	EXP 	stimInfo: autoDraw = True
+36.2938 	EXP 	New trial (rep=1, index=0): None
+36.2972 	EXP 	stimInfo: autoDraw = False
+36.2972 	EXP 	stimInfo: autoDraw = False
+36.2972 	EXP 	stimInfo: text = 'stim 1'
+36.3680 	EXP 	stimInfo: autoDraw = True
+36.4529 	EXP 	New trial (rep=2, index=0): None
+36.4602 	EXP 	stimInfo: autoDraw = False
+36.4602 	EXP 	stimInfo: autoDraw = False
+36.4602 	EXP 	stimInfo: text = 'stim 2'
+36.5320 	EXP 	stimInfo: autoDraw = True
+36.6197 	EXP 	New trial (rep=1, index=0): None
+36.6200 	EXP 	Created sequence: random, trialTypes=1, nReps=3, seed=None
+36.6202 	EXP 	New trial (rep=0, index=0): None
+36.6233 	EXP 	stimInfo: autoDraw = False
+36.6233 	EXP 	stimInfo: autoDraw = False
+36.6233 	EXP 	stimInfo: text = 'stim 0'
+36.7158 	EXP 	stimInfo: autoDraw = True
+36.7994 	EXP 	New trial (rep=1, index=0): None
+36.8023 	EXP 	stimInfo: autoDraw = False
+36.8023 	EXP 	stimInfo: autoDraw = False
+36.8023 	EXP 	stimInfo: text = 'stim 1'
+36.8714 	EXP 	stimInfo: autoDraw = True
+36.9553 	EXP 	New trial (rep=2, index=0): None
+36.9581 	EXP 	stimInfo: autoDraw = False
+36.9581 	EXP 	stimInfo: autoDraw = False
+36.9581 	EXP 	stimInfo: text = 'stim 2'
+37.0264 	EXP 	stimInfo: autoDraw = True
+37.1406 	EXP 	New trial (rep=1, index=0): None
+37.1446 	EXP 	stimInfo: autoDraw = False
+37.1446 	EXP 	stimInfo: autoDraw = False
+37.1446 	EXP 	blockIntroText: autoDraw = True
+37.6302 	EXP 	Created sequence: random, trialTypes=1, nReps=2, seed=None
+37.6304 	EXP 	New trial (rep=0, index=0): None
+37.6306 	EXP 	Created sequence: random, trialTypes=1, nReps=3, seed=None
+37.6308 	EXP 	New trial (rep=0, index=0): None
+37.6339 	EXP 	blockIntroText: autoDraw = False
+37.6339 	EXP 	blockIntroText: autoDraw = False
+37.6339 	EXP 	stimInfo: text = 'stim 0'
+37.7138 	EXP 	stimInfo: autoDraw = True
+37.7979 	EXP 	New trial (rep=1, index=0): None
+37.8006 	EXP 	stimInfo: autoDraw = False
+37.8006 	EXP 	stimInfo: autoDraw = False
+37.8006 	EXP 	stimInfo: text = 'stim 1'
+37.8698 	EXP 	stimInfo: autoDraw = True
+37.9535 	EXP 	New trial (rep=2, index=0): None
+37.9561 	EXP 	stimInfo: autoDraw = False
+37.9561 	EXP 	stimInfo: autoDraw = False
+37.9561 	EXP 	stimInfo: text = 'stim 2'
+38.0249 	EXP 	stimInfo: autoDraw = True
+38.1085 	EXP 	New trial (rep=1, index=0): None
+38.1087 	EXP 	Created sequence: random, trialTypes=1, nReps=3, seed=None
+38.1089 	EXP 	New trial (rep=0, index=0): None
+38.1116 	EXP 	stimInfo: autoDraw = False
+38.1116 	EXP 	stimInfo: autoDraw = False
+38.1116 	EXP 	stimInfo: text = 'stim 0'
+38.1800 	EXP 	stimInfo: autoDraw = True
+38.2633 	EXP 	New trial (rep=1, index=0): None
+38.2660 	EXP 	stimInfo: autoDraw = False
+38.2660 	EXP 	stimInfo: autoDraw = False
+38.2660 	EXP 	stimInfo: text = 'stim 1'
+38.3351 	EXP 	stimInfo: autoDraw = True
+38.4183 	EXP 	New trial (rep=2, index=0): None
+38.4214 	EXP 	stimInfo: autoDraw = False
+38.4214 	EXP 	stimInfo: autoDraw = False
+38.4214 	EXP 	stimInfo: text = 'stim 2'
+38.4896 	EXP 	stimInfo: autoDraw = True
+38.6173 	EXP 	New trial (rep=2, index=0): None
+38.6215 	EXP 	stimInfo: autoDraw = False
+38.6215 	EXP 	stimInfo: autoDraw = False
+38.6215 	EXP 	blockIntroText: autoDraw = True
+39.1054 	EXP 	Created sequence: random, trialTypes=1, nReps=2, seed=None
+39.1055 	EXP 	New trial (rep=0, index=0): None
+39.1057 	EXP 	Created sequence: random, trialTypes=1, nReps=3, seed=None
+39.1058 	EXP 	New trial (rep=0, index=0): None
+39.1088 	EXP 	blockIntroText: autoDraw = False
+39.1088 	EXP 	blockIntroText: autoDraw = False
+39.1088 	EXP 	stimInfo: text = 'stim 0'
+39.1780 	EXP 	stimInfo: autoDraw = True
+39.2619 	EXP 	New trial (rep=1, index=0): None
+39.2650 	EXP 	stimInfo: autoDraw = False
+39.2650 	EXP 	stimInfo: autoDraw = False
+39.2650 	EXP 	stimInfo: text = 'stim 1'
+39.3345 	EXP 	stimInfo: autoDraw = True
+39.4183 	EXP 	New trial (rep=2, index=0): None
+39.4211 	EXP 	stimInfo: autoDraw = False
+39.4211 	EXP 	stimInfo: autoDraw = False
+39.4211 	EXP 	stimInfo: text = 'stim 2'
+39.4902 	EXP 	stimInfo: autoDraw = True
+39.5743 	EXP 	New trial (rep=1, index=0): None
+39.5745 	EXP 	Created sequence: random, trialTypes=1, nReps=3, seed=None
+39.5746 	EXP 	New trial (rep=0, index=0): None
+39.5774 	EXP 	stimInfo: autoDraw = False
+39.5774 	EXP 	stimInfo: autoDraw = False
+39.5774 	EXP 	stimInfo: text = 'stim 0'
+39.6459 	EXP 	stimInfo: autoDraw = True
+39.7294 	EXP 	New trial (rep=1, index=0): None
+39.7326 	EXP 	stimInfo: autoDraw = False
+39.7326 	EXP 	stimInfo: autoDraw = False
+39.7326 	EXP 	stimInfo: text = 'stim 1'
+39.8018 	EXP 	stimInfo: autoDraw = True
+39.8853 	EXP 	New trial (rep=2, index=0): None
+39.8880 	EXP 	stimInfo: autoDraw = False
+39.8880 	EXP 	stimInfo: autoDraw = False
+39.8880 	EXP 	stimInfo: text = 'stim 2'
+39.9563 	EXP 	stimInfo: autoDraw = True
+40.0685 	EXP 	New trial (rep=3, index=0): None
+40.0724 	EXP 	stimInfo: autoDraw = False
+40.0724 	EXP 	stimInfo: autoDraw = False
+40.0724 	EXP 	blockIntroText: autoDraw = True
+40.5561 	EXP 	Created sequence: random, trialTypes=1, nReps=2, seed=None
+40.5562 	EXP 	New trial (rep=0, index=0): None
+40.5564 	EXP 	Created sequence: random, trialTypes=1, nReps=3, seed=None
+40.5565 	EXP 	New trial (rep=0, index=0): None
+40.5595 	EXP 	blockIntroText: autoDraw = False
+40.5595 	EXP 	blockIntroText: autoDraw = False
+40.5595 	EXP 	stimInfo: text = 'stim 0'
+40.6282 	EXP 	stimInfo: autoDraw = True
+40.7120 	EXP 	New trial (rep=1, index=0): None
+40.7156 	EXP 	stimInfo: autoDraw = False
+40.7156 	EXP 	stimInfo: autoDraw = False
+40.7156 	EXP 	stimInfo: text = 'stim 1'
+40.7845 	EXP 	stimInfo: autoDraw = True
+40.8684 	EXP 	New trial (rep=2, index=0): None
+40.8712 	EXP 	stimInfo: autoDraw = False
+40.8712 	EXP 	stimInfo: autoDraw = False
+40.8712 	EXP 	stimInfo: text = 'stim 2'
+40.9400 	EXP 	stimInfo: autoDraw = True
+41.0239 	EXP 	New trial (rep=1, index=0): None
+41.0241 	EXP 	Created sequence: random, trialTypes=1, nReps=3, seed=None
+41.0243 	EXP 	New trial (rep=0, index=0): None
+41.0270 	EXP 	stimInfo: autoDraw = False
+41.0270 	EXP 	stimInfo: autoDraw = False
+41.0270 	EXP 	stimInfo: text = 'stim 0'
+41.0959 	EXP 	stimInfo: autoDraw = True
+41.1788 	EXP 	New trial (rep=1, index=0): None
+41.1816 	EXP 	stimInfo: autoDraw = False
+41.1816 	EXP 	stimInfo: autoDraw = False
+41.1816 	EXP 	stimInfo: text = 'stim 1'
+41.2501 	EXP 	stimInfo: autoDraw = True
+41.3342 	EXP 	New trial (rep=2, index=0): None
+41.3371 	EXP 	stimInfo: autoDraw = False
+41.3371 	EXP 	stimInfo: autoDraw = False
+41.3371 	EXP 	stimInfo: text = 'stim 2'
+41.4059 	EXP 	stimInfo: autoDraw = True
+41.5522 	EXP 	stimInfo: autoDraw = False
+41.5522 	EXP 	stimInfo: autoDraw = False
+41.5612 	EXP 	window1: mouseVisible = True
