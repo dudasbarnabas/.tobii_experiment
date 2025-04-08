@@ -1,2 +1,0 @@
-# .tobii_experiment
- 
