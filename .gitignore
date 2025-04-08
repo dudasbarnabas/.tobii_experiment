@@ -9,3 +9,6 @@ dist/
 build/
 # Tester
 tester.csv
+# Pyinstall
+build/
+dist/
