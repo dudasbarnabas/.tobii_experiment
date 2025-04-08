@@ -4,7 +4,7 @@ import pandas as pd
 import random
 
 # Initialize window
-win = visual.Window(size=(600, 400), units='height', color='black')
+win = visual.Window(size=(1920, 1080), units='height', color='black')
 
 # Define stimuli
 fixation = visual.TextStim(win, text='+', height=0.1, color='white')
