@@ -5,10 +5,15 @@ sorrend = []
 
 # Read stimuli list
 df_sor = pd.read_excel('.\cue_reactivity\sorrend.xlsx')
+empty_found = False
 for column in df_sor.columns:
     for row in df_sor.index:
-        if pd.notna(df_sor.at[row, column]):
-            sorrend.append(str(df_sor.at[row, column]))
+        if pd.isna(df_sor.at[row, column]):
+            empty_found = True
+            break  # Exit the inner loop
+        sorrend.append(str(df_sor.at[row, column]))
+    if empty_found:
+        break  # Exit the outer loop
 
 # Initialize window
 win = visual.Window(size=(1920, 1080), units='height', color='black')
