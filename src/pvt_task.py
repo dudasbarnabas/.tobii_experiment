@@ -3,6 +3,7 @@ from psychopy import visual, core, event
 import numpy as np
 import pandas as pd
 import random
+import time
 
 def show_vas(win, question="How tired are you?", left_label="Not at all", right_label="Extremely", line_length=1.0):
 
@@ -64,7 +65,7 @@ fixation_times = []
 reaction_times = []
 
 # Initialize dataframe
-df = pd.DataFrame(columns=['block', 'fixation', 'reaction', 'lapsus','last5','vas'])
+df = pd.DataFrame(columns=['block', 'fixation', 'reaction', 'lapsus','last5', 'vas', 'pres_time'])
 
 # Instructions
 instructions = visual.TextStim(win, text='Press SPACE when you see the blue circle.\n\nPress any key to start.', 
@@ -92,6 +93,7 @@ for trial in range(n_trials):
         # Show target and start response timer
         target.draw()
         win.flip()
+        sys_time = time.time()
         resp_clock = core.Clock()
         resp_clock.reset()
         
@@ -117,7 +119,7 @@ for trial in range(n_trials):
         five = sum(reaction_times[-5:])/len(reaction_times) if len(reaction_times) > 0 else 'none'
 
         # Add to dataframe
-        df2 = pd.DataFrame({'block':[trial+1], 'fixation':[fix_time], 'reaction':[rt], 'lapsus':[lapsus], 'last5':[five]})
+        df2 = pd.DataFrame({'block':[trial+1], 'fixation':[fix_time], 'reaction':[rt], 'lapsus':[lapsus], 'last5':[five], 'pres_time':[sys_time]})
         df = pd.concat([df, df2], ignore_index=True)
         print(df[-1:])
 
