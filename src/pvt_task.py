@@ -109,6 +109,7 @@ for trial in range(n_trials):
             keys = event.getKeys(keyList=['space'], timeStamped=resp_clock)
             if keys and not first_key:
                 first_key = keys[0]
+                win.flip() # Clear screen on press
         
         # Record results
         if first_key:
