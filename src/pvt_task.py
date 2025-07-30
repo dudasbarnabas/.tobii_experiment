@@ -50,8 +50,13 @@ def show_vas(win, question="How tired are you?", left_label="Not at all", right_
 
 
 # Initialize window
-# win = visual.Window(size=(1920, 1080), units='height', color='black')
-win = visual.Window(fullscr=False, color='black')
+win = visual.Window(
+    size=(1920, 1080),
+    fullscr=True,
+    screen=1,
+    color='black',
+    units='height'
+)
 
 # Define stimuli
 fixation = visual.TextStim(win, text='+', height=0.1, color='white')
