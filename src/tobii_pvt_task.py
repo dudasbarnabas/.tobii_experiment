@@ -210,5 +210,11 @@ print(df.tail(1))
 # Save data
 df.to_csv("tester.csv", sep="\t", index=False)
 
-# Cleanup
+## Stop recording
+ttl.stop_recording()
 win.close()
+
+#%% Finalize the recording
+# Finalize recording
+ttl.finalize_recording(rec['recording_id'])
+ttl.disconnect()
