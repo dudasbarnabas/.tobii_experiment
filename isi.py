@@ -77,25 +77,46 @@ for a, b in zip(list, list[1:]):
 
 print(rr, rl, lr, ll)
 
+def is_valid_order(order):
+    for i, n in enumerate(order):
+        if (i < 4 and n >= 6) or (i >= 4 and n <= 6):
+            return False
+    return True
 
-for k in range(10):
-    sum_num = []
-    final = []
-    for i in range(4):
-        sum_num.append(round(random.uniform(2,6),1))
-        sum_num.append(round(random.uniform(6,10),1))
-    plusmin = round(((48-(sum(sum_num)))/8),1)
-    resid = 48-(sum(sum_num))
-    plusmin = divmod((resid*10),8)[0]/10
+def generate_numbers():
+    while True:
+        sum_num = []
+        final = []
+        for i in range(4):
+            sum_num.append(round(random.uniform(2,6),1))
+            sum_num.append(round(random.uniform(6,10),1))
+        resid = 48-(sum(sum_num))
+        plusmin = divmod((resid*10),8)[0]/10
+        
+        for i in sum_num:
+            rounded = round((i+plusmin),1)
+            final.append(rounded)
+        rest = round(48-sum(final),1)
+        order = sorted(final)
+        order[0] = round(order[0]+rest, 1)
+        order = sorted(order)
+
+        if is_valid_order(order):
+            return order  # Return the valid order if it meets the conditions
+        else:
+            continue 
+
     
-    for i in sum_num:
-        rounded = round((i+plusmin),1)
-        final.append(rounded)
-    rest = round(48-sum(final),1)
-    order = sorted(sum_num)
-    order[0] = order[0]+rest
-    print(final)
-    print(sum(final))
-    print(sum(final)+rest)
+numbers = generate_numbers()
 
-
+isi_list =[]
+z = 0
+k = 4
+for i, n in enumerate(list):
+    if n == "r":
+        isi_list[i] = numbers[z]
+        z += 1
+    else:
+        isi_list[i] = numbers[(z+k)]
+        k += 1
+print(isi_list)
